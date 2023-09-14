@@ -9,24 +9,10 @@ This script automates the setup of a Ruby on Rails development environment on Ub
 
 ## Usage
 
-1. Clone this repository to your local machine or download the script directly:
-
-   ```bash
-   git clone https://github.com/ramzieus/rails-dev-setup.git
-
-2. Navigate to the script directory:
+1. Install the script directly:
     ```bash
-    cd rails-dev-setup
-
-3. Make the script executable:
-    ```bash
-    chmod +x run.sh
-
-4. Run the script:
-    ```bash
-    ./run.sh
-
-5. Follow the on-screen prompts and provide necessary inputs when required (e.g., setting MySQL root password).
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ramzieus/rails_dev_setup/master/run.sh)"
+2. Follow the on-screen prompts and provide necessary inputs when required (e.g., setting MySQL root password).
 
 ### Customization
 You can customize the script by adjusting the following variables in the script:
